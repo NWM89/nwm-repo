@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Factorial</title>
+</head>
+<body>
+<script type="text/javascript">
+    function recursiveFactorial(n) {
+        if (n == 0)
+            return 1;
+        else
+            return recursiveFactorial(n - 1) * n;
+    }
+    alert("Факториал равен = " + recursiveFactorial(1));
+</script>
+</body>
+</html>

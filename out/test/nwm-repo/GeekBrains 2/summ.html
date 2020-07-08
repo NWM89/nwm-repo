@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Summ</title>
+</head>
+<body>
+<script type="text/javascript">
+    let n = -1;
+
+    while(isNaN(n) || n < 0)
+    {
+        n = +prompt("Пожалуйста, введите число");
+    }
+
+
+    let sum = 0;
+    for(let i=0; i<=n; i++)
+    {
+        sum = sum + i;
+
+    }
+    document.write(sum);
+</script>
+</body>
+</html>
